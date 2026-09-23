@@ -1,199 +1,106 @@
-# Awesome-Asset-Performance-Management
-
-## Top Asset Performance Management (APM) Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Asset Health, Predictive Maintenance, Reliability, CMMS/EAM, Work Orders & Industrial Asset Performance*  
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Asset Performance Management (APM)**. These systems help organizations monitor asset health, plan maintenance, reduce downtime, manage work orders, and improve reliability—from enterprise APM suites to modern CMMS tools.
-
-
-
-**Examples** include IBM Maximo, GE Digital APM, AVEVA APM, SAP APM, Infor APM, Senseye, Fiix, MaintainX, UpKeep, and eMaint (the category leaders).
-
-
-
-**Open-source emphasis**: Full industrial APM with advanced predictive analytics and multi-site reliability engineering is largely commercial. Open-source strength lies in **CMMS / EAM** platforms—**Atlas CMMS**, **SuperCMMS**, **openMAINT**, and related tools—that cover work orders, preventive maintenance, and asset registries. This section lists every significant relevant project found.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[IBM Maximo](https://www.ibm.com/products/maximo)**  
-
-  Leading enterprise asset management and APM platform covering work management, asset health, predictive insights, and industry-specific solutions at global scale.
-
-
-
-- **[GE Digital APM / GE Vernova](https://www.gevernova.com/)**  
-
-  Asset performance management focused on industrial reliability, predictive analytics, and optimization of critical equipment.
-
-
-
-- **[AVEVA APM, SAP APM, Infor APM](https://www.aveva.com/)**  
-
-  Enterprise APM and EAM suites integrated with broader industrial and ERP ecosystems for asset strategy and maintenance execution.
-
-
-
-- **[Senseye](https://www.senseye.io/)**  
-
-  Predictive maintenance and asset health platform using machine learning to forecast failures and prioritize interventions.
-
-
-
-- **[Fiix, MaintainX, UpKeep, eMaint](https://www.fiixsoftware.com/)**  
-
-  Modern CMMS and maintenance management platforms popular with mid-market and multi-site operations for work orders, preventive maintenance, and mobile technician workflows.
-
-
-
-- **[Other commercial APM & CMMS platforms](https://www.ibm.com/products/maximo)**  
-
-  Solutions spanning reliability-centered maintenance, condition monitoring, and enterprise asset lifecycle management.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Atlas CMMS](https://atlas-cmms.com/)**  
-
-  Open-source, self-hosted CMMS for asset management—equipment tracking, preventive maintenance scheduling, work orders, and performance history with full data ownership.
-
-
-
-- **[SuperCMMS (Open-Source CMMS)](https://github.com/SuperCMMS/Open-Source-CMMS)**  
-
-  Free and open-source CMMS backend (MIT) covering asset management, work orders, preventive and predictive maintenance concepts, inventory, and related maintenance workflows.
-
-
-
-- **[openMAINT](https://www.cmdbuild.org/en/products/openmaint)**  
-
-  Open-source solution for property and facility management and CMMS-style maintenance, built on the CMDBuild platform—widely used for asset and maintenance processes.
-
-
-
-- **[ITAMbox & IT-focused asset tools](https://itambox.dev/)**  
-
-  Open-source IT asset management with custody, maintenance, and cost tracking—useful for IT and lighter asset environments.
-
-
-
-- **[Other open CMMS / maintenance projects](https://github.com/search?q=CMMS+OR+%22computerized+maintenance%22+open+source)**  
-
-  Community CMMS and work-order systems that support preventive schedules, asset registries, and technician workflows.
-
-
-
-- **[Predictive maintenance open libraries](https://github.com/search?q=predictive+maintenance+OR+RUL+OR+anomaly+detection+maintenance)**  
-
-  Open machine-learning and signal-processing projects for remaining useful life estimation and anomaly detection that can feed APM workflows.
-
-
-
-- **[Condition monitoring & IoT open stacks](https://github.com/search?q=condition+monitoring+OR+vibration+analysis+open+source)**  
-
-  Tools for ingesting sensor data and detecting early signs of asset degradation.
-
-
-
-- **[ERPNext / Odoo maintenance modules](https://github.com/frappe/erpnext)**  
-
-  Open ERP platforms with maintenance and asset modules that some organizations use as a lightweight EAM/CMMS foundation.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Full open CMMS**: Atlas CMMS, SuperCMMS, and openMAINT for work orders, PMs, and asset registries.
-
-- **Predictive building blocks**: Open anomaly detection and RUL libraries paired with sensor data pipelines.
-
-- **Composable stacks**: Open CMMS + time-series DB + simple ML models for condition-based maintenance.
-
-- **IT / facility focus**: ITAMbox and similar tools for non-industrial asset contexts.
-
-- Enterprise multi-site APM with deep OEM models and reliability engineering workflows remains commercial.
-
-
-
-**Frameworks for building custom systems**:  
-
-**Atlas CMMS**, **SuperCMMS**, and **openMAINT** provide the strongest open-source foundations for computerized maintenance and asset management.  
-
-Open predictive-maintenance libraries and IoT stacks can extend them toward condition-based and predictive approaches.  
-
-Commercial APM platforms (IBM Maximo, GE Digital APM, AVEVA, SAP, Senseye, etc.) deliver advanced analytics, industry models, scale, and support required by large industrial operators.  
-
-Many mid-sized organizations run open or modern CMMS successfully; heavy industry and regulated environments typically adopt commercial APM for reliability and compliance. Hybrid setups (open CMMS + commercial analytics or sensors) are common.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Asset performance and maintenance systems affect safety, uptime, and regulatory compliance. Incorrect maintenance planning or unvalidated predictive models can increase risk. Always align tools with engineering standards and criticality assessments.
-
-- Open-source CMMS tools offer transparency and control but require hosting, configuration, and ongoing maintenance. Commercial APM platforms shift operational burden to the vendor and often include deeper predictive capabilities. Evaluate total cost of ownership and operational criticality carefully.
-
-
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Asset Performance Management Banner" width="100%">
+</p>
+
+# 🛠️ Awesome Asset Performance Management (APM) & CMMS Ecosystem ⚙️
+
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Asset-Performance-Management/pulls)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+
+> **A curated list of top Industrial Asset Performance Management (APM) SaaS suites, Enterprise Asset Management (EAM), open-source Computerized Maintenance Management Systems (CMMS), and predictive maintenance machine learning libraries.** 🚀
 
 ---
 
+## 💡 Industry Overview & Market Intelligence
 
+> 📈 **Estimated Global APM & EAM Market Size**: **~$28.5 Billion (2026)**, projected to reach over **$45 Billion by 2030** (CAGR ~11.8%).  
+> 🧩 **Market Fragmentation**: The market is **moderately fragmented to concentrated** at the top tier. Enterprise heavyweight suits (GE Vernova, SAP, IBM Maximo, AVEVA) dominate industrial mission-critical setups, while mid-market cloud CMMS providers (MaintainX, Fiix, UpKeep) compete dynamically for factory-floor and facility workflows.
 
-**Made for reliability engineers, maintenance managers, asset owners, and industrial digital teams.**  
+---
 
-Let's expand open options for transparent maintenance management while recognizing the predictive depth and scale that leading commercial Asset Performance Management platforms deliver.
+## 📑 Table of Contents
+- [🏢 SaaS & Commercial Enterprise Platforms](#-saas--commercial-enterprise-platforms)
+- [🔓 Open-Source GitHub Projects & Frameworks](#-open-source-github-projects--frameworks)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+
+---
+
+## 🏢 SaaS & Commercial Enterprise Platforms
+
+Below is a comparative breakdown of top commercial APM and CMMS platforms, sorted by **Company Size / Valuation (Descending)**.
+
+| Platform 🚀 | Company Size & Valuation 🏢 | Entry Pricing 💰 | Free Tier / Trial Limit 🎁 | Key Strengths & Focus Areas 🎯 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[GE Digital APM / GE Vernova](https://www.gevernova.com/)** | **~$254B Market Cap** ($45.5B Revenue) | Custom Enterprise Quote (AppPoints / Module Tier) | 14-Day Request-Based Demo | Industrial reliability engineering, digital twins, vibration analysis & predictive analytics for heavy equipment. |
+| **[SAP APM & EAM](https://www.sap.com/products/scm/asset-performance-management.html)** | **~$245B Market Cap** (€36.8B Revenue) | ~$100+/user/month (Tiered Enterprise Core) | 30-Day Guided Enterprise Trial | Seamless integration with SAP S/4HANA ERP, asset strategy, risk-based maintenance & IoT sensor pipelines. |
+| **[IBM Maximo Application Suite](https://www.ibm.com/products/maximo)** | **~$218B Market Cap** ($67.5B Revenue) | ~$160–$300/user/month (AppPoints Model) | 14-Day MAS Hands-On Sandbox | Industry gold standard for global EAM, AI-powered work orders, predictive maintenance & visual inspection. |
+| **[Senseye APM](https://www.senseye.io/)** *(Siemens)* | **~$140B Parent Market Cap** (Siemens DI Subsidiary) | Custom Enterprise Quote (Per-Asset Tier) | 30-Day Guided Proof-of-Concept Trial | Machine learning failure forecasting, automated remaining useful life (RUL) estimation & condition monitoring. |
+| **[MaintainX](https://www.getmaintainx.com/)** *(Autodesk)* | **$3.6B Valuation** ($135M+ ARR) | $21 per user/month | **Free Forever Basic Plan** (Unlimited Work Orders & Asset Registries) | Mobile-first frontline CMMS, procedure checklists, parts inventory & real-time team messaging. |
+| **[Fiix CMMS](https://www.fiixsoftware.com/)** *(Rockwell Automation)* | **~$30B Parent Market Cap** (~$23.5M Business Unit) | $45 per user/month | **Free Forever Plan** (Up to 3 Users & 25 Active PM Tasks) | Cloud CMMS with AI insights (Fiix Foresight), work order automation & native PLC/SCADA integration. |
+| **[eMaint CMMS](https://www.emaint.com/)** *(Fluke / Fortive)* | **~$26B Parent Market Cap** (Fortive Subsidiary) | $69 per user/month | 14-Day Guided Sandbox Trial | Deep integration with Fluke wireless vibration & thermal sensors, compliance tracking & multisite EAM. |
+| **[UpKeep](https://www.onupkeep.com/)** | **~$50M Total Raised** (~$22.4M Annual Revenue) | $20 per user/month | 14-Day Full-Featured Free Trial | Modern maintenance management, mobile work orders, IoT sensor monitoring & barcode scanning. |
+
+---
+
+## 🔓 Open-Source GitHub Projects & Frameworks
+
+Top open-source CMMS, asset tracking tools, and predictive analytics libraries, sorted by **GitHub Stars (Descending)**.
+
+| Project Name 📦 | GitHub Star Count 🌟 | Primary Category 🏷️ | Core Description & Capabilities ⚡ |
+| :--- | :--- | :--- | :--- |
+| **[Odoo Maintenance Module](https://github.com/odoo/odoo)** | [![Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | Enterprise ERP & Maintenance | Open-source ERP featuring integrated maintenance requests, mean time between failures (MTBF/MTTR), and equipment tracking. |
+| **[ERPNext Maintenance](https://github.com/frappe/erpnext)** | [![Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) | Enterprise ERP & Maintenance | Full-fledged open-source ERP with dedicated asset management, maintenance schedules, work orders, and depreciation logs. |
+| **[Snipe-IT](https://github.com/snipe/snipe-it)** | [![Stars](https://img.shields.io/github/stars/snipe/snipe-it?style=social&color=white)](https://github.com/snipe/snipe-it/stargazers) | IT Asset Management (ITAM) | Premier open-source IT asset management system for tracking hardware assets, software licenses, accessories, and maintenance audits. |
+| **[InvenTree](https://github.com/inventree/InvenTree)** | [![Stars](https://img.shields.io/github/stars/inventree/InvenTree?style=social&color=white)](https://github.com/inventree/InvenTree/stargazers) | Inventory & Hardware Management | Open-source inventory, part tracking, and equipment maintenance management system designed for industrial production lines. |
+| **[GLPI Project](https://github.com/glpi-project/glpi)** | [![Stars](https://img.shields.io/github/stars/glpi-project/glpi?style=social&color=white)](https://github.com/glpi-project/glpi/stargazers) | Asset & Service Management | Comprehensive open-source ITIL service desk and asset management software for enterprise infrastructure lifecycle management. |
+| **[Shelf.nu](https://github.com/Shelf-nu/shelf.nu)** | [![Stars](https://img.shields.io/github/stars/Shelf-nu/shelf.nu?style=social&color=white)](https://github.com/Shelf-nu/shelf.nu/stargazers) | Modern Asset & Equipment Tracking | Asset management platform with QR code generation, equipment check-in/out workflows, and location tracking. |
+| **[Ralph](https://github.com/allegro/ralph)** | [![Stars](https://img.shields.io/github/stars/allegro/ralph?style=social&color=white)](https://github.com/allegro/ralph/stargazers) | Data Center & Hardware CMDB | Open-source asset management system for data center equipment, hardware inventories, and network device life-cycles. |
+| **[Atlas CMMS](https://github.com/Grashjs/cmms)** | [![Stars](https://img.shields.io/github/stars/Grashjs/cmms?style=social&color=white)](https://github.com/Grashjs/cmms/stargazers) | Industrial CMMS | Self-hosted Docker-based Computerized Maintenance Management System for preventive maintenance, work orders, and asset tracking. |
+| **[SuperCMMS](https://github.com/SuperCMMS/Open-Source-CMMS)** | [![Stars](https://img.shields.io/github/stars/SuperCMMS/Open-Source-CMMS?style=social&color=white)](https://github.com/SuperCMMS/Open-Source-CMMS/stargazers) | Open CMMS Backend | Modular open-source CMMS backend engine for building custom work order scheduling, inventory, and predictive maintenance portals. |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are highly welcomed! Help us keep this directory updated and comprehensive.
+
+1. 🍴 **Fork** the repository.
+2. 📝 **Add/Update** your entry in `README.md` keeping the Markdown tabular formatting consistent.
+3. 🔗 Ensure all links point to official documentation or active GitHub repositories.
+4. 🚀 Submit a **Pull Request** with a brief summary of the changes.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for visiting this repository! If you find this curated list valuable for your asset performance, reliability engineering, or CMMS projects, please consider supporting the project:
+
+- ⭐️ **Star** this repository to increase its visibility.
+- 🍴 **Fork** and contribute new tools or updates.
+- 📢 **Share** it with your engineering and maintenance management network.
+- ☕ **Sponsor / Buy me a coffee**: Support open-source curation via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Asset-Performance-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Asset-Performance-Management&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This directory is **community-curated** for educational and research purposes.
+- Asset performance and maintenance platforms directly impact critical industrial safety and operational uptime. Always perform independent technical and security reviews before deploying in production environments.
+
+---
+
+<p align="center">
+  <b>⭐ Star this repository if you find it helpful!</b>
+</p>
