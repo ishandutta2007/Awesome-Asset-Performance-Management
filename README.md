@@ -50,9 +50,9 @@ Below is a comparative breakdown of top commercial APM and CMMS platforms, sorte
 
 ## 🔓 Open-Source GitHub Projects & Frameworks
 
-Top open-source CMMS, asset tracking tools, and predictive analytics libraries, sorted by **GitHub Stars (Descending)**.
+Top open-source CMMS, asset tracking tools, and predictive analytics libraries, sorted by **GitHub_Stars (Descending)**.
 
-| Project Name 📦 | GitHub Star Count 🌟 | Primary Category 🏷️ | Core Description & Capabilities ⚡ |
+| Project Name 📦 | GitHub Stars_Count 🌟 | Primary Category 🏷️ | Core Description & Capabilities ⚡ |
 | :--- | :--- | :--- | :--- |
 | **[Odoo Maintenance Module](https://github.com/odoo/odoo)** | [![Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | Enterprise ERP & Maintenance | Open-source ERP featuring integrated maintenance requests, mean time between failures (MTBF/MTTR), and equipment tracking. |
 | **[ERPNext Maintenance](https://github.com/frappe/erpnext)** | [![Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) | Enterprise ERP & Maintenance | Full-fledged open-source ERP with dedicated asset management, maintenance schedules, work orders, and depreciation logs. |
